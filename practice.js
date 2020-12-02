@@ -5,8 +5,8 @@
 // After the first variable, make a variable named farewell with a data type of string that says 'Goodbye' (with single quotes)
 
 // Code here
-
-
+let greeting = "Hi"
+let farewell = 'Goodbye'
 
 //////////////////PROBLEM 2////////////////////
 
@@ -15,7 +15,9 @@
 // Concatenate hello and userName together and store the result in a variable called salutation
 
 //Code here
-
+let hello = "Hello"
+let userName = "Matt"
+let salutation = `${hello} + ${userName}`
 
 
 //////////////////PROBLEM 3////////////////////
@@ -23,7 +25,7 @@
 //Create a variable called seven that has a number data type with the value of 7
 
 //Code here
-
+let seven = 7
 
 
 //////////////////PROBLEM 4////////////////////
@@ -32,7 +34,7 @@
 // This datatype should be a number
 
 //Code here
-
+let money = 10000000000000000
 
 
 //////////////////PROBLEM 5////////////////////
@@ -40,7 +42,7 @@
 // Make a variable called awesome and give it a value of the boolean data type true
 
 //Code here
-
+let awesome = true
 
 
 //////////////////PROBLEM 6////////////////////
@@ -54,7 +56,7 @@ let myCar = "Jeep";
 
 
 //Code here
-
+myCar = null
 
 
 //////////////////PROBLEM 7////////////////////
@@ -63,7 +65,12 @@ let myCar = "Jeep";
 // Each item should be an object, and each object should have 2 properties: name (string) and age (number)
 
 //Code here
-
+let users = [
+  {name: 'Matt', age: 27}, 
+  {name: 'Peg', age: 63}, 
+  {name: 'Mark', age: 64}, 
+  {name: 'Andrew', age: 27}
+]
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,7 +81,11 @@ let myCar = "Jeep";
 // Each hobbies property will have a corresponding value which will be an object
 
 //Code here
-
+let family = {
+  Matt: {hobbies: {}},
+  Treyson: {hobbies: {}},
+  Kenyan:  {hobbies: {}}
+}
 
 
 //////////////////PROBLEM 9////////////////////
@@ -83,7 +94,7 @@ let myCar = "Jeep";
 // Each item should be an array with 2 items (numbers) in each array
 
 //Code here
-
+let gameScores = [[1, 2], [3, 4], [5, 6]]
 
 
 //////////////////PROBLEM 10////////////////////
@@ -92,7 +103,11 @@ let myCar = "Jeep";
 // Each object should have 3 properties: name (string), gender (string), height (number) in each array
 
 //Code here
-
+let people = [
+  {name: 'Matt', gender: 'male', height: 5.6},
+  {name: 'Rey', gender: 'female', height: 5.3},
+  {name: 'Han', gender: 'male', height: 6.1}
+]
 
 
 //////////////////PROBLEM 11////////////////////
@@ -101,7 +116,11 @@ let myCar = "Jeep";
 // This object should have 3 properties: name (string), state (string), favoriteCountrySong (string)
 
 //Code here
-
+let cowboy = {
+  name: 'Barnabus',
+  state: 'Wyoming',
+  favoriteCountrySong: 'She thinks my tractor is sexy'
+}
 
 
 //////////////////PROBLEM 12////////////////////
@@ -131,7 +150,14 @@ function launch() {
 
 
 //Code here
-
+let dataTypes = [
+  42, 
+  'meaning', 
+  true, 
+  [1, 2, 3, 4, 5],
+  spaceship,
+  launch
+]
 
 
 //////////////////PROBLEM 13////////////////////
@@ -139,7 +165,7 @@ function launch() {
 // Edit the function called "sum" so that when it is invoked, it returns the sum of its parameters num1 and num2
 
 function sum(num1, num2){
-  return // Code here
+  return (num1 + num2)
 };
   
 
@@ -149,12 +175,13 @@ function sum(num1, num2){
 // Create two variables number1 and number2 and assign them number values
 
 // Code here
-
+let number1 = 5
+let number2 = 10
 
 // Next, edit the function called "multiply" so that when it is invoked, it returns the result of multiplying number1 and number2
 
 function multiply() {
-  return // Code here
+  return (number1 * number2)
 };
 
 
@@ -170,7 +197,7 @@ let food = 'pizza';
 // In your solution code, use template strings (not concatenation) and use the food variable provided
 
 function favFood(){
-  return // Code here
+  return `My favorite food is ${food}`
 };
 
 
@@ -187,7 +214,7 @@ let theBoss;
 // the function assigns the value of theName to theBoss variable
 
 function assignName(name){
-  // Code here
+  if 
 };
 
 
